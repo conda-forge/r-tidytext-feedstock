@@ -1,4 +1,4 @@
-{% set version = '0.1.2' %}
+{% set version = "0.1.9" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/tidytext_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/tidytext/tidytext_{{ version }}.tar.gz
-  sha256: 9581ad8f5b03a29be15952053f1dad98e9218e61e1c78a05d162332ad53ab9de
+  sha256: 0e4438911daa09af8cd622cc21c884ae80b9f40f356f8bb8498410c686787dc2
 
 build:
   number: 0
