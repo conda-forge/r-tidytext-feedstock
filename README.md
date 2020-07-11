@@ -5,7 +5,7 @@ Home: http://github.com/juliasilge/tidytext
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Text mining for word processing and sentiment analysis using 'dplyr', 'ggplot2', and other tidy tools.
 
