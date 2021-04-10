@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tidytext_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tidytext/tidytext_{{ version }}.tar.gz
-  sha256: 7d36be1e504f751c33dc2239751a600bd4ff05af24a0b9cdd549aff909778bc5
+  sha256: 30b96058d69733a5f49cff4ff471605f47deb549a40d4517dcdffc7f4b534fa0
 
 build:
   merge_build_host: true  # [win]
