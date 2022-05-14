@@ -1,4 +1,4 @@
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tidytext_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tidytext/tidytext_{{ version }}.tar.gz
-  sha256: 6fe0ada78ee2cdf77c16e519a29b9baff61d8e23ab56aa0a9adc1b2a99a6472b
+  sha256: 753b2bcea6e343ac439869b92e7c11b0aaf98ce5c0373965da6c7d087d57924e
 
 build:
   merge_build_host: true  # [win]
@@ -65,6 +65,7 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
+
 
 # Package: tidytext
 # Type: Package
