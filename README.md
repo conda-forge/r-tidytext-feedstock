@@ -1,11 +1,11 @@
-About r-tidytext
-================
+About r-tidytext-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tidytext-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/juliasilge/tidytext
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tidytext-feedstock/blob/main/LICENSE.txt)
 
 Summary: Text mining for word processing and sentiment analysis using 'dplyr', 'ggplot2', and other tidy tools.
 
