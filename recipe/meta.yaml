@@ -1,4 +1,4 @@
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tidytext_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tidytext/tidytext_{{ version }}.tar.gz
-  sha256: 0cf4180c2ab9fdb158337a7bfb6ba32f15fb61aae28abce425deaa5933ed2d54
+  sha256: 993be302d9c9a668e364669b62a50b756e92290d063c816298d67c25f1e597d9
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
